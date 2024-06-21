@@ -1,0 +1,170 @@
+body,html
+{
+  margin: 0px;
+  height: 100%;
+  
+  background-color: antiquewhite;
+}
+
+.intro_container
+{
+    background-image: url(image-1.jpg);
+ min-height: 800px;
+ background-repeat: no-repeat;
+ background-position: center;
+ background-size: cover;
+ position: relative;
+
+ 
+ 
+
+}
+
+.intro{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+   
+    font-size: 45px;
+    text-align: center;
+    letter-spacing: 5px;
+    color: white;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px black ;
+    width: 100%;
+    
+    }
+
+    .work
+    {
+
+        background-color: black;
+        height: 200px;
+       padding-left: 0px;
+        position: relative;
+        
+       
+        
+    }
+    .work_stat
+    {
+        position: absolute;
+        color: white;
+       
+       
+        display: flex;
+        justify-content: center;
+        
+       
+        font-size: 30px;
+        text-align: center;
+        
+        font-weight: bold;
+        text-shadow: 1px 1px 1px black ;
+
+        width: 100%;
+        top: 60px;
+        height: 100%;
+        
+    }
+    .job-profile
+    {
+        height: 600px;
+       
+        display: flex;
+        justify-content:space-evenly;
+        align-items:center;
+        background-color: aliceblue;
+        
+        
+        
+    }
+    .job-tab
+    {
+        
+    
+        width: 200px;
+        
+       
+        display: flex;
+        flex-direction: column;
+        display: flex;
+        box-shadow: 3px 10px 30px rgb(133, 131, 131);
+        border-radius: 30px;
+        padding-left: 5px; 
+        padding-right: 5px;
+
+    }
+    
+    .img
+       {
+
+        height: 170px;
+        width: 100%;
+        
+        border-top-left-radius: 30px;
+        border-top-right-radius: 30px;
+      
+    }
+    .job-descr
+    {
+        
+        height: 170px;
+        width: 100%;
+        border-bottom-left-radius: 30px;
+        border-bottom-right-radius: 30px;
+        text-align: center;
+    }
+
+    .job-tab:hover{
+        height: 380px;
+        width: 210px;
+
+        box-shadow: 5px 12px 20px rgb(116, 114, 114);
+        transition: 0.3s ease-in-out;
+    }
+
+    .info
+    {
+        display: flex;
+        height: 300px;
+        color: rgb(255, 255, 255);
+        text-align: center;
+        justify-content: space-around;
+        
+        border: 2px black solid;
+    }
+    .contact{
+        background-color: rgb(28, 93, 21);
+        padding: 20px;
+        
+    }
+     @media (max-width:662px)
+    {
+    .job-profile
+    {
+        flex-direction: column;
+        
+        height: 1500px;
+        justify-content: space-around;
+    }
+
+    
+
+    }
+    
+ .about
+ {
+    background-color: rgb(77, 25, 8);
+    padding:20px;
+ }
+
+.footer
+{
+    background-color: black;
+    height: 50px;
+    text-align: center;
+    color: white;
+    padding-top: 10px;
+}
